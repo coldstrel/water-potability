@@ -33,7 +33,7 @@ def save_data(df: pd.DataFrame, filepath: str) -> None:
         raise Exception(f"Error saving data to {filepath}: {e}")
 
 def main():
-    data_filepath = r"./water_potability.csv"
+    data_filepath = r"./data/water_potability.csv"
     params_filepath = r"./params.yaml"
     raw_data_path = os.path.join("data", "raw")
     try:
